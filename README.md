@@ -6,7 +6,7 @@
 一些说明:
 ```
 0. 作此脚本的目的在于自动生成所有导师的信息汇总, 避免在浏览器中打开海量tab, 不便于查找搜索信息, 爬取地址为http://222.197.183.99/TutorList.aspx
-1. 该脚本使用了Python-docx_0.8.6库，使用Python3版本, 执行脚本时请先安装该库, 由于在处理图片时, 该库的原始代码有时出错, 因此请修改:
+1. 该脚本使用了Python-docx_0.8.6, BeautifulSoup库，使用Python3版本, 执行脚本时请先安装相关库: "pip install python-docx", "pip install bs4" 由于在处理图片时, 该库的原始代码有时出错, 因此请修改:
 /usr/local/lib/python3.5/dist-packages/python_docx-0.8.6-py3.5.egg/docx/image/helpers.py
 将代码:
 unicode_str = chars.decode('UTF-8')
